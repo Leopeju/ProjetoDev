@@ -1,4 +1,4 @@
-<h1 align="center"> Projeto Dev </h1>
+<h1 align="center"> Projeto JC </h1>
 
 <p align="center">
 Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
