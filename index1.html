@@ -1,0 +1,9 @@
+// create a html code for a site
+public function getHtmlCode($site) {
+  $html = '';
+  // check if the user is logged in and has permission to edit this page or not. If
+  so, show an "edit" link next to it's name
+  if (isset($_SESSION['user_id']) && $_SESSION['user_id'] ==
+  $site->getUserId())
+  $html .= '<a href="?action=edit&amp;id=' . $site
+  
